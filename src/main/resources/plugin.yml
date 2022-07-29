@@ -1,0 +1,17 @@
+name: Ticket
+version: 1
+main: Plugin
+api-version: 1.19
+prefix: Ticket
+authors: [ Marian ]
+description: Claim names for tickets
+commands:
+  claimticket:
+      description: Beanspruche ein ticket namen
+      usage: /<command> <name>
+  unclaimticket:
+    description: Mache einen ticket namen frei (gut deutsch)
+    usage: /<command>
+  listtickets:
+    description: Liste alle deine tickets lol
+    usage: /<command>
